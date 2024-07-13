@@ -16,6 +16,8 @@ def pesquisa(lista, item):
             baixo = meio + 1
     return None
 
+
+print ('Comitando')
 minha_lista = [1,3,5,7,9,11]
 print(pesquisa(minha_lista, 7))
 
