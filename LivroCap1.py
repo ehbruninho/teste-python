@@ -9,7 +9,6 @@ def pesquisa(lista, item):
             print("Achou!")
             return meio
         if chute > item:
-            print("Esta alto")
             alto = meio - 1
         else:
             print("Esta baixo")
